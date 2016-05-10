@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maqueta.master.cs" Inherits="JurgoWeb.Maqueta" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Juego el que menos sabe</title>
+
+    <link href="css/estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="contenedor">
+        <header>
+            <p> este es el encabezado</p>
+        </header>
+        <section>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </section>
+        <footer>
+            <p>
+                este es el pie del documento
+            </p>
+        </footer>
+
+    </div>
+    </form>
+</body>
+</html>
