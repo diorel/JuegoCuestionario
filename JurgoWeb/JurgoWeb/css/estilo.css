@@ -5,6 +5,7 @@
 #contenedor
 {
     background-color: peru;
+
 }
 
 header
@@ -15,4 +16,7 @@ header
 footer
 {
     background-color:orange;
+    color :azure;
 }
+
+
