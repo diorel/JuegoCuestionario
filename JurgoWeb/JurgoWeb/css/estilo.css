@@ -1,22 +1,29 @@
 ﻿body 
 {
-    background-color:#FAFAFA;
+    background-color:white;
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-left: 10%;        
 }
 #contenedor
 {
-    background-color: peru;
-
+    background-color:#FAFAFA;
+     box-shadow: 7px 0px 5px #888;  
 }
-
-header
+header 
 {
-    background-color: antiquewhite;
+    background-color: #0B610B;
+    text-align: center;
+    color: #FAFAFA;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 7px 0px 5px #888;  
 }
 
 footer
 {
-    background-color:orange;
+    background-color:#0B610B;
     color :azure;
+    box-shadow: 7px 10px 5px #888;  
 }
 
 
