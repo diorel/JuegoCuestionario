@@ -7,13 +7,12 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
  
     <link href="css/estilo.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
  
 </head>
 <div id="logo" >
     <img src="img/LogoAgentia.png" style="padding-left: 35%;"   class="img-responsive" alt="Responsive image"/>
 </div>
-
-
 
 <body>
     <form id="form1" runat="server">

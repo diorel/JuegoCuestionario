@@ -31,3 +31,108 @@ C:\Users\raul.cortes\Documents\GitHub\JuegoCuestionario\JurgoWeb\JurgoWeb\bin\Mi
 C:\Users\raul.cortes\Documents\GitHub\JuegoCuestionario\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.csprojResolveAssemblyReference.cache
 C:\Users\raul.cortes\Documents\GitHub\JuegoCuestionario\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.dll
 C:\Users\raul.cortes\Documents\GitHub\JuegoCuestionario\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.pdb
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.csprojResolveAssemblyReference.cache
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.pdb
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\ApplicationInsights.config
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\csc.exe
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\vbc.exe
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.dll.config
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.pdb
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Web.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.dll
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Web.xml
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Raul\Desktop\proyecto\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\ApplicationInsights.config
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\csc.exe
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\System.Collections.Immutable.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\System.Reflection.Metadata.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\vbc.exe
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\VBCSCompiler.exe
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\VBCSCompiler.exe.config
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.dll.config
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.pdb
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Agent.Intercept.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.DependencyCollector.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Web.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.WindowsServer.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.ApplicationInsights.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.DependencyCollector.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Web.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.WindowsServer.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.ApplicationInsights.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.xml
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.csprojResolveAssemblyReference.cache
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.dll
+G:\proyecto mi compu\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.pdb
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\ApplicationInsights.config
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\csc.exe
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\vbc.exe
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.dll.config
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\JurgoWeb.pdb
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Web.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.Web.xml
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.xml
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.dll
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.pdb
+C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.csprojResolveAssemblyReference.cache
