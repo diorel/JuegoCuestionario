@@ -56,7 +56,8 @@ namespace JurgoWeb
             ResultadoPanel.Visible = true;
             NombreLabel.Text = PruebaActual.Nombre;
             ResultadoLabel.Text = PruebaActual.Resultado.ToString("P");
-
+            InicoLabel.Text = Convert.ToString(PruebaActual.Inicio);
+            
             EnviarEmail();
         }
 
@@ -71,18 +72,19 @@ namespace JurgoWeb
 
             msg.To.Add("diorel_x@hotmail.com");
 
-            msg.From = new MailAddress("diorelx@gmail.com", "Raul Cortes Amador", System.Text.Encoding.UTF8);
+            msg.From = new MailAddress("diorelx@gmail.com", "Sistamas Agentia", System.Text.Encoding.UTF8);
 
-            msg.Subject = "Prueba de correo elctronico";
+            msg.Subject = "Resultado de Juego el que quien no sabe";
 
             msg.SubjectEncoding = System.Text.Encoding.UTF8;
 
-            msg.Body = "Este es para ve como se envia el ccorreo electro nico desde la palicacion ";
+            msg.Body = "Saludos  RH\n\n Este es el resultado del colaborador:" + PruebaActual.Nombre + "\n Del de partamento de :" + PruebaActual.Departamento+ "\n El cual obtubo el siguiente puntaje:" + PruebaActual.Resultado.ToString("P") + "\n En la fecha:" + PruebaActual.Inicio;
 
             msg.BodyEncoding = System.Text.Encoding.UTF8;
 
             msg.IsBodyHtml = false; //Si vas a enviar un correo con contenido html entonces cambia el valor a true
                                     //Aquí es donde se hace lo especial
+                                    
 
             SmtpClient client = new SmtpClient();
 

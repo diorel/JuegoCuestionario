@@ -51,8 +51,23 @@
 
      <asp:Panel runat="server" ID="ResultadoPanel">
        <h1> Tus resultados fueron</h1>
-         <asp:Label ID="NombreLabel" runat="server" />
-         <asp:Label ID="ResultadoLabel" runat="server" />
+         <table>
+             <tr>
+                 <td><asp:Label ID="Label1" runat="server" Text="Nombre:"></asp:Label></td>
+                  <td><asp:Label ID="NombreLabel" runat="server" /></td>
+             </tr>
+             <tr>
+                 <td><asp:Label ID="Label2" runat="server" Text="Tu calificacion fue:"></asp:Label></td>
+                 <td><asp:Label ID="ResultadoLabel" runat="server" /></td>
+             </tr>
+             <tr>
+                 <td><asp:Label ID="Label3" runat="server" Text="Fecha:"></asp:Label></td>
+                 <td><asp:Label ID="InicoLabel" runat="server" Text="Label"></asp:Label></td>   
+             </tr>
+             <tr>
+                 <td><button type="button" class="btn btn-primary btn-block">Salir</button></td>
+             </tr>
+         </table>  
     </asp:Panel>
 
 

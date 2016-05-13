@@ -136,3 +136,5 @@ C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\bin\Newt
 C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.dll
 C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.pdb
 C:\Users\raul.cortes\Desktop\JuegoCuestionario-master\JurgoWeb\JurgoWeb\obj\Debug\JurgoWeb.csprojResolveAssemblyReference.cache
+C:\Users\raul.cortes\Documents\GitHub\JuegoCuestionario\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.dll
+C:\Users\raul.cortes\Documents\GitHub\JuegoCuestionario\JurgoWeb\JurgoWeb\bin\Newtonsoft.Json.xml
