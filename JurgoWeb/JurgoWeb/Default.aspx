@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Maqueta.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JurgoWeb.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <h2>Bienvenido para ingresar al juego favor de ingresar tus datos</h2>
+    <h2>Bienvenido ponte a prueba con tus conocimientos  y sorpréndete   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> </h2>
   <br />  
 
   <asp:Panel runat="server" ID="RegistroPanel" CssClass="row">
@@ -30,7 +30,7 @@
  <div class="row">
   <div class="col-xs-12">
       <div id="botonC" style="padding-left: 40%; padding-top:1%; padding-bottom: 2%;" >
-          <asp:Button ID="IniciarButton"  runat="server" Text="JUGAR"  CssClass="btn btn-warning" Height="80px" Width="200px" OnClick="IniciarButton_Click" />
+          <asp:Button ID="IniciarButton"  runat="server" Text="JUGAR"  CssClass="btn btn-warning" Height="80px" Width="200px" OnClick="IniciarButton_Click" > </asp:Button>
       </div>
   </div>
 </div>
@@ -43,9 +43,9 @@
         <asp:Label runat="server" ID="PreguntaLabel" />
         <hr />
         <div class="text-center">
-            <asp:Button runat="server" ID="VerdaderButton" Text="Verdadero" CommandArgument="True" CommandName="RESPONDER" OnCommand="Responder" />
+            <asp:Button runat="server" ID="VerdaderButton" Text="Verdadero" CommandArgument="True" CssClass="btn btn-warning" CommandName="RESPONDER" OnCommand="Responder" />
             &nbsp;&nbsp;
-            <asp:Button runat="server" ID="FalsoButton" Text="Falso" CommandArgument="False" CommandName="RESPONDER" OnCommand="Responder" />
+            <asp:Button runat="server" ID="FalsoButton" Text="Falso" CommandArgument="False" CssClass="btn btn-warning" CommandName="RESPONDER" OnCommand="Responder" />
         </div>
     </asp:Panel>
 
