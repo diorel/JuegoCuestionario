@@ -72,8 +72,14 @@
              </tr>
              <tr>
 
-                 <asp:Panel ID= "Panel1"  runat = "server">
-                  <td>   hola esta es otra parte  <img src="img/1463260251_emoticon.png" /> </td>
+                 <asp:Panel ID= "Panel1"  runat = "server" Visible="false" >
+                  <td>  muy bien buen resultado  <img src="img/1463260251_emoticon.png" /> </td>
+                 
+                 </asp:Panel>
+
+
+                  <asp:Panel ID= "Panel2"  runat = "server" Visible="false" >
+                  <td>   puff tienes que esudiar  <img src="img/1463260178_bad_smile.png" /> </td>
                  
                  </asp:Panel>
 
