@@ -38,14 +38,19 @@
 </asp:Panel>
 
     <asp:Panel runat="server" ID="PreguntaPanel">
-        <h4>Pregunta #<asp:Label runat="server" ID="IndiceLabel" /></h4>
+        <div style="color:#B18904; font-size:x-large">
+        <h4>Pregunta #<asp:Label runat="server" ID="IndiceLabel"  />
+        </h4>
+            </div>
         <hr />
+        <div style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
         <asp:Label runat="server" ID="PreguntaLabel" />
+        </div>
         <hr />
         <div class="text-center">
-            <asp:Button runat="server" ID="VerdaderButton" Text="Verdadero" CommandArgument="True" CssClass="btn btn-warning" CommandName="RESPONDER" OnCommand="Responder" />
+            <asp:Button runat="server" ID="VerdaderButton" Text="Verdadero" CommandArgument="True" CssClass="btn btn-primary" CommandName="RESPONDER" OnCommand="Responder" />
             &nbsp;&nbsp;
-            <asp:Button runat="server" ID="FalsoButton" Text="Falso" CommandArgument="False" CssClass="btn btn-warning" CommandName="RESPONDER" OnCommand="Responder" />
+            <asp:Button runat="server" ID="FalsoButton" Text="Falso" CommandArgument="False" CssClass="btn btn-success" CommandName="RESPONDER" OnCommand="Responder" Height="36px" Width="90px" />
         </div>
     </asp:Panel>
 
@@ -55,6 +60,7 @@
              <tr>
                  <td><asp:Label ID="Label1" runat="server" Text="Nombre:"></asp:Label></td>
                   <td><asp:Label ID="NombreLabel" runat="server" /></td>
+             
              </tr>
              <tr>
                  <td><asp:Label ID="Label2" runat="server" Text="Tu calificacion fue:"></asp:Label></td>
@@ -65,9 +71,21 @@
                  <td><asp:Label ID="InicoLabel" runat="server" Text="Label"></asp:Label></td>   
              </tr>
              <tr>
+
+                 <asp:Panel ID= "Panel1"  runat = "server">
+                  <td>   hola esta es otra parte  <img src="img/1463260251_emoticon.png" /> </td>
+                 
+                 </asp:Panel>
+
+
                  <td><button type="button" class="btn btn-primary btn-block">Salir</button></td>
              </tr>
-         </table>  
+         </table>
+         <div style="padding-left:40%; padding-right:30%" >
+             
+
+         </div>
+           
     </asp:Panel>
 
 
