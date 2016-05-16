@@ -52,11 +52,16 @@ namespace JurgoWeb
 
         void CargarResultado()
         {
+            //var a ;
+
             PreguntaPanel.Visible = false;
             ResultadoPanel.Visible = true;
             NombreLabel.Text = PruebaActual.Nombre;
             ResultadoLabel.Text = PruebaActual.Resultado.ToString("P");
             InicoLabel.Text = Convert.ToString(PruebaActual.Inicio);
+            
+            
+            //a   =  PruebaActual.Respuestas;
 
             if (PruebaActual.Resultado >= 0.60)
             {
@@ -67,7 +72,7 @@ namespace JurgoWeb
                 Panel2.Visible = true;
             }
             
-          EnviarEmail();
+        //  EnviarEmail();
         }
 
         //Este metodo se encarga de enviar cooreo electronico

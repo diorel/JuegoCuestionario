@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Maqueta.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JurgoWeb.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <h2>Bienvenido ponte a prueba con tus conocimientos  y sorpréndete   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> </h2>
+    <h2>Bienvenido pon a prueba con tus conocimientos  y sorpréndete   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> </h2>
   <br />  
 
   <asp:Panel runat="server" ID="RegistroPanel" CssClass="row">
@@ -39,11 +39,11 @@
 
     <asp:Panel runat="server" ID="PreguntaPanel">
         <div style="color:#B18904; font-size:x-large">
-        <h4>Pregunta #<asp:Label runat="server" ID="IndiceLabel"  />
-        </h4>
+        <h2>Pregunta #<asp:Label runat="server" ID="IndiceLabel"  />
+        </h2>
             </div>
         <hr />
-        <div style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        <div style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px;" >
         <asp:Label runat="server" ID="PreguntaLabel" />
         </div>
         <hr />
@@ -60,7 +60,10 @@
              <tr>
                  <td><asp:Label ID="Label1" runat="server" Text="Nombre:"></asp:Label></td>
                   <td><asp:Label ID="NombreLabel" runat="server" /></td>
-             
+                 <td></td>
+                 <td></td>
+                 <td>
+                     <asp:ListView ID="ListView1" runat="server"></asp:ListView> </td>
              </tr>
              <tr>
                  <td><asp:Label ID="Label2" runat="server" Text="Tu calificacion fue:"></asp:Label></td>
@@ -82,6 +85,7 @@
                              <img src="img/1463260178_bad_smile.png" />
                          </td>
                      </asp:Panel>
+                
                      <td>
                          <button class="btn btn-primary btn-block" type="button">
                              Salir
@@ -89,6 +93,8 @@
                      </td>
         
              </tr>
+         </table>
+         <table>
          </table>
          <div style="padding-left:40%; padding-right:30%" >
              
