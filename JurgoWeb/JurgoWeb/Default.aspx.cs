@@ -57,8 +57,17 @@ namespace JurgoWeb
             NombreLabel.Text = PruebaActual.Nombre;
             ResultadoLabel.Text = PruebaActual.Resultado.ToString("P");
             InicoLabel.Text = Convert.ToString(PruebaActual.Inicio);
+
+            if (PruebaActual.Resultado >= 0.60)
+            {
+                Panel1.Visible = true;
+            }
+            else
+           {
+                Panel2.Visible = true;
+            }
             
-          //  EnviarEmail();
+          EnviarEmail();
         }
 
         //Este metodo se encarga de enviar cooreo electronico

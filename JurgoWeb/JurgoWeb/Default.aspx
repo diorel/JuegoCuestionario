@@ -71,20 +71,23 @@
                  <td><asp:Label ID="InicoLabel" runat="server" Text="Label"></asp:Label></td>   
              </tr>
              <tr>
-
-                 <asp:Panel ID= "Panel1"  runat = "server" Visible="false" >
-                  <td>  muy bien buen resultado  <img src="img/1463260251_emoticon.png" /> </td>
-                 
-                 </asp:Panel>
-
-
-                  <asp:Panel ID= "Panel2"  runat = "server" Visible="false" >
-                  <td>   puff tienes que esudiar  <img src="img/1463260178_bad_smile.png" /> </td>
-                 
-                 </asp:Panel>
-
-
-                 <td><button type="button" class="btn btn-primary btn-block">Salir</button></td>
+                
+                     <asp:Panel ID="Panel1" runat="server" Visible="false">
+                         <td>muy bien buen resultado
+                             <img src="img/1463260251_emoticon.png" />
+                         </td>
+                     </asp:Panel>
+                     <asp:Panel ID="Panel2" runat="server" Visible="false">
+                         <td>puff tienes que esudiar
+                             <img src="img/1463260178_bad_smile.png" />
+                         </td>
+                     </asp:Panel>
+                     <td>
+                         <button class="btn btn-primary btn-block" type="button">
+                             Salir
+                         </button>
+                     </td>
+        
              </tr>
          </table>
          <div style="padding-left:40%; padding-right:30%" >
