@@ -63,7 +63,9 @@
                  <td></td>
                  <td></td>
                  <td>
-                     <asp:ListView ID="ListView1" runat="server"></asp:ListView> </td>
+                     
+
+                 </td>
              </tr>
              <tr>
                  <td><asp:Label ID="Label2" runat="server" Text="Tu calificacion fue:"></asp:Label></td>
@@ -87,18 +89,36 @@
                      </asp:Panel>
                 
                      <td>
+                         <input class="btn btn-default btn-block" type="button" onclick="window.print()" value="Imprimir" />
+                         &nbsp;
                          <button class="btn btn-primary btn-block" type="button">
                              Salir
                          </button>
                      </td>
         
              </tr>
+             <tr>
+                 <td>
+
+                 </td>
+             </tr>
          </table>
          <table>
          </table>
-         <div style="padding-left:40%; padding-right:30%" >
-             
 
+         <h4>Tus resultados</h4>
+         <asp:Repeater ID="ResultadosRepeater" runat="server">
+             <ItemTemplate>
+                 <div class= '<%#Eval("Resultado")%>'>
+                     <strong><%#Eval("ID") %>.-&nbsp;<%#Eval("Pregunta") %></strong><br /><span>Respuesta correcta:&nbsp;<%#Eval("Correcta") %></span>&nbsp;|&nbsp;
+                     <span>Tu respuesta:&nbsp;<%#Eval("Respuesta") %></span></div>
+             </ItemTemplate>
+             <SeparatorTemplate>
+                 <br />
+             </SeparatorTemplate>
+         </asp:Repeater>
+
+         <div style="padding-left:40%; padding-right:30%" >
          </div>
            
     </asp:Panel>

@@ -59,9 +59,17 @@ namespace JurgoWeb
             NombreLabel.Text = PruebaActual.Nombre;
             ResultadoLabel.Text = PruebaActual.Resultado.ToString("P");
             InicoLabel.Text = Convert.ToString(PruebaActual.Inicio);
-            
-            
-            //a   =  PruebaActual.Respuestas;
+
+            ResultadosRepeater.DataSource = PruebaActual.Respuestas.Values
+                .Join(Pregunta.CatalogoPreguntas.Values, x=>x.Id, y=>y.ID, (x,y)=>new 
+            {
+                Resultado = x.Correcta ? "respuesta_correcta":"respuesta_incorrecta",
+                ID = x.Id,
+                Pregunta = y.Texto,
+                Correcta = y.Respueta? "Verdadero":"Falso",
+                Respuesta = x.Valor.HasValue? x.Valor.Value?"Verdadero":"Falso":"sin respuesta",
+            }).ToArray();
+            ResultadosRepeater.DataBind();
 
             if (PruebaActual.Resultado >= 0.60)
             {

@@ -12,41 +12,27 @@ namespace JurgoWeb
         public string Departamento { get; set; }
         public DateTime Inicio { get; set; }
         public DateTime? Fin { get; set; }
-        public Dictionary<int, bool?> Respuestas { get; set; }
+        public Dictionary<int, Respuesta> Respuestas { get; set; }
         public Single Resultado
         {
             get
             {
-                if (Respuestas == null)       
+                if (Respuestas == null)
+                {
+                    throw new InvalidCastException(); 
+                }
+                if (Respuestas.Count() == 0)
                 {
                     throw new InvalidOperationException();
                 }
-                if (Pregunta.CatalogoPreguntas == null)
-                {
-                    throw new InvalidOperationException();
-                }
-                if(Pregunta.CatalogoPreguntas.Count() == 0)
-                {
-                    return 0; 
-                }
-
-                int respuestasCorrectas = 0;
-                foreach (var r in Respuestas.Where(x => x.Value.HasValue))
-                {
-                    if (r.Value.Value == Pregunta.CatalogoPreguntas[r.Key].Respueta)
-                    {
-                        respuestasCorrectas++;
-                    }
-
-                }
-                return Convert.ToSingle(respuestasCorrectas) / Convert.ToSingle(Pregunta.CatalogoPreguntas.Count);
+                return Convert.ToSingle(Respuestas.Count(x => x.Value.Correcta)) / Convert.ToSingle(Respuestas.Count);
 
             }
         }
 
-        public Prueba(string nombre , string departamento)
+        public Prueba(string nombre, string departamento)
         {
-            if ( string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(departamento))
+            if (string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(departamento))
             {
                 throw new ArgumentNullException();
             }
@@ -54,15 +40,12 @@ namespace JurgoWeb
             Departamento = departamento;
             Inicio = DateTime.Now;
             Fin = null;
-            Respuestas = new Dictionary<int,bool?>();
-            
-            foreach (var elemento in Pregunta.CatalogoPreguntas.OrderBy (x=> x.Key))
-            {
 
-                Respuestas.Add(elemento.Key, null);
-                
-            }
+            Respuestas = Pregunta.CatalogoPreguntas.Values.Select
+                (x => new Respuesta { Id = x.ID, Valor = null })
+                .ToDictionary(x => x.Id);
         }
+        
 
         public void Contestar(int id, bool respuesta)
         {
@@ -74,7 +57,7 @@ namespace JurgoWeb
             {
                 throw new KeyNotFoundException();                
             }
-            Respuestas[id] = respuesta;
+            Respuestas[id] = new Respuesta{Id = id, Valor = respuesta};
         }
 
         public void Terminar()
