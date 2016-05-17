@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Maqueta.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JurgoWeb.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
-    <h2>Bienvenido pon a prueba con tus conocimientos  y sorpréndete   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> </h2>
+    <div style="color:#0C6937">
+            <h2 >Bienvenido pon a prueba con tus conocimientos  y sorpréndete   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> </h2>
+    </div>
   <br />  
-
   <asp:Panel runat="server" ID="RegistroPanel" CssClass="row">
   <div class="col-md-12">
         
@@ -38,7 +38,7 @@
 </asp:Panel>
 
     <asp:Panel runat="server" ID="PreguntaPanel">
-        <div style="color:#B18904; font-size:x-large">
+        <div style="color:#F27920; font-size:x-large">
         <h2>Pregunta #<asp:Label runat="server" ID="IndiceLabel"  />
         </h2>
             </div>
@@ -55,7 +55,9 @@
     </asp:Panel>
 
      <asp:Panel runat="server" ID="ResultadoPanel">
-       <h1> Tus resultados fueron</h1>
+      <div style="color:#F27920">
+          <h1> Tu puntaje fue </h1>
+          </div>
          <table>
              <tr>
                  <td><asp:Label ID="Label1" runat="server" Text="Nombre:"></asp:Label></td>
@@ -78,21 +80,28 @@
              <tr>
                 
                      <asp:Panel ID="Panel1" runat="server" Visible="false">
-                         <td>muy bien buen resultado
+                         <td>Muy bien buen resultado felicidades
                              <img src="img/1463260251_emoticon.png" />
                          </td>
                      </asp:Panel>
                      <asp:Panel ID="Panel2" runat="server" Visible="false">
-                         <td>puff tienes que esudiar
+                         <td>Puff tienes que estudiar!!!
                              <img src="img/1463260178_bad_smile.png" />
                          </td>
                      </asp:Panel>
                 
                      <td>
-                         <input class="btn btn-default btn-block" type="button" onclick="window.print()" value="Imprimir" />
+                        
                          &nbsp;
-                         <button class="btn btn-primary btn-block" type="button">
+                     <%--     <button class="btn btn-warning btn-block"  type="button" onclick="window.print()" value="Imprimir">
+                              imprimir
+                              <span class="glyphicon glyphicon-print" aria-hidden="true"></span> 
+                               </button>--%>
+
+                         <button class="btn btn-success btn-block"   type="button" onclick = "'www.google.com'" >
                              Salir
+
+                              <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"  ></span> 
                          </button>
                      </td>
         
@@ -107,6 +116,10 @@
          </table>
 
          <h4>Tus resultados</h4>
+
+         <div style=" background-color: #F4F4F4">
+
+         
          <asp:Repeater ID="ResultadosRepeater" runat="server">
              <ItemTemplate>
                  <div class= '<%#Eval("Resultado")%>'>
@@ -117,7 +130,7 @@
                  <br />
              </SeparatorTemplate>
          </asp:Repeater>
-
+             </div>
          <div style="padding-left:40%; padding-right:30%" >
          </div>
            

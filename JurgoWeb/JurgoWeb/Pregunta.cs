@@ -26,12 +26,12 @@ namespace JurgoWeb
                 new Pregunta{ID=7, Texto="El Representante de la Dirección ante el Sistema de Gestión de Calidad es Jesús Cerda.", Respueta=false},
                 new Pregunta{ID=8, Texto="El Representante de la Dirección ante el Sistema de Gestión de Calidad es Elvira Villarreal Ramos.", Respueta=true},
                 new Pregunta{ID=9, Texto="El comité de Calidad lo forman La Dirección General, Líder del Sistema de Gestión de Calidad y Dueños de Proceso.", Respueta=false},
-                new Pregunta{ID=10, Texto="El comité de Calidad lo forman La Dirección General, Direcciones de área y el Líder del Sistema de Gestión de Calidad. Verdadero", Respueta=true},
-                new Pregunta{ID=11, Texto="Los Dueños de Proceso son las los Responsables de Implementar y mejorar los Procesos que están a su cargo.", Respueta=true},
-                new Pregunta{ID=12, Texto="Existe un proceso de comunicación interna dentro de la organización, que comunica los indicadores del sistema, cambios documentales y/o cualquier información que afecta al Sistema de Gestión de Calidad en AGENTIA.", Respueta=true},
-                new Pregunta{ID=13, Texto="La Biblioteca Documental almacena y resguarda el sistema documental AGENTIA los (Procedimientos, formatos y registros etc.).", Respueta=true},
-                new Pregunta{ID=14, Texto="Existen siete procedimientos mandatorios en AGENTIA, que son básicos para el seguimiento del Sistema de Gestión de Calidad AGENTIA.", Respueta=true},
-                new Pregunta{ID=15, Texto="Los Procedimientos mandatorios son: a) Elaboración de Documentos, a) Control de documentos y Registros, b) Control de Producto no conforme, c) Acciones Correctivas, d) Acciones Preventivas, e) Auditoria Interna, f) Revisión por la Dirección.", Respueta=true}
+                new Pregunta{ID=10, Texto="El comité de Calidad lo forman La Dirección General, Direcciones de área y el Líder del Sistema de Gestión de Calidad. Verdadero", Respueta=true}
+                //new Pregunta{ID=11, Texto="Los Dueños de Proceso son las los Responsables de Implementar y mejorar los Procesos que están a su cargo.", Respueta=true},
+                //new Pregunta{ID=12, Texto="Existe un proceso de comunicación interna dentro de la organización, que comunica los indicadores del sistema, cambios documentales y/o cualquier información que afecta al Sistema de Gestión de Calidad en AGENTIA.", Respueta=true},
+                //new Pregunta{ID=13, Texto="La Biblioteca Documental almacena y resguarda el sistema documental AGENTIA los (Procedimientos, formatos y registros etc.).", Respueta=true},
+                //new Pregunta{ID=14, Texto="Existen siete procedimientos mandatorios en AGENTIA, que son básicos para el seguimiento del Sistema de Gestión de Calidad AGENTIA.", Respueta=true},
+                //new Pregunta{ID=15, Texto="Los Procedimientos mandatorios son: a) Elaboración de Documentos, a) Control de documentos y Registros, b) Control de Producto no conforme, c) Acciones Correctivas, d) Acciones Preventivas, e) Auditoria Interna, f) Revisión por la Dirección.", Respueta=true}
             };
             string json = Serializar(array);
         }
