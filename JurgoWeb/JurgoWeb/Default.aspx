@@ -17,7 +17,6 @@
         ErrorMessage="El nombre es requerido"
         ForeColor="Red">
     </asp:RequiredFieldValidator>
-
     </div>
   </div>
   <div class="form-group">
@@ -31,6 +30,9 @@
   <div class="col-xs-12">
       <div id="botonC" style="padding-left: 40%; padding-top:1%; padding-bottom: 2%;" >
           <asp:Button ID="IniciarButton"  runat="server" Text="JUGAR"  CssClass="btn btn-warning" Height="80px" Width="200px" OnClick="IniciarButton_Click" > </asp:Button>
+
+   
+
       </div>
   </div>
 </div>
@@ -98,13 +100,12 @@
                               <span class="glyphicon glyphicon-print" aria-hidden="true"></span> 
                                </button>--%>
 
-                         <button class="btn btn-success btn-block"   type="button" onclick = "'www.google.com'" >
-                             Salir
+                 <button class="btn btn-success btn-block" type="button" onclick=" window.location.href='http://www.agentia.com.mx/' ">
+                     Salir
+                     <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                 </button>
+             </td>
 
-                              <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"  ></span> 
-                         </button>
-                     </td>
-        
              </tr>
              <tr>
                  <td>

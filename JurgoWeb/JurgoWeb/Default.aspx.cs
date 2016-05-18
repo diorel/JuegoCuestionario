@@ -71,6 +71,8 @@ namespace JurgoWeb
             }).ToArray();
             ResultadosRepeater.DataBind();
 
+
+
             if (PruebaActual.Resultado >= 0.60)
             {
                 Panel1.Visible = true;
@@ -80,7 +82,7 @@ namespace JurgoWeb
                 Panel2.Visible = true;
             }
             
-        //  EnviarEmail();
+        EnviarEmail();
         }
 
         //Este metodo se encarga de enviar cooreo electronico
@@ -92,7 +94,9 @@ namespace JurgoWeb
 
             //System.Net.MailMessage msg = new MailMessage();
 
-            msg.To.Add("diorel_x@hotmail.com");
+            msg.To.Add("javier.ramirez@agentia.com.mx");
+
+            msg.To.Add("raul.cortes@agentia.com.mx");
 
             msg.From = new MailAddress("diorelx@gmail.com", "Sistamas Agentia", System.Text.Encoding.UTF8);
 
