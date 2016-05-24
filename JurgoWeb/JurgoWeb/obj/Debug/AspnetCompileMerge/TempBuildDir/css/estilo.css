@@ -1,0 +1,29 @@
+﻿body 
+{
+    background-color:white;
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-left: 10%;        
+}
+#contenedor
+{
+    background-color:#FAFAFA;
+     box-shadow: 7px 0px 5px #888;  
+}
+header 
+{
+    background-color: #A8C513;
+    text-align: center;
+    color: #FAFAFA;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 7px 0px 5px #888;  
+}
+
+footer
+{
+    background-color:#A8C513;
+    color :azure;
+    box-shadow: 7px 10px 5px #888;  
+}
+
+

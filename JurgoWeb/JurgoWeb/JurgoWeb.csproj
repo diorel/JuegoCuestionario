@@ -98,6 +98,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Audio\cancion.mp3" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="img\1463260178_bad_smile.png" />
     <Content Include="img\1463260251_emoticon.png" />
@@ -117,6 +118,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\Agentiajuego.pubxml" />
+    <None Include="Properties\PublishProfiles\JuagoAgenta.pubxml" />
+    <None Include="Properties\PublishProfiles\JuegoAgentia.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

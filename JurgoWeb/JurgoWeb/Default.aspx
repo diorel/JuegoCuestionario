@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Maqueta.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="JurgoWeb.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   
+    
     <div style="color:#0C6937">
             <h2 >Bienvenido pon a prueba con tus conocimientos  y sorpréndete   <span class="glyphicon glyphicon-education" aria-hidden="true"></span> </h2>
     </div>
@@ -12,11 +14,7 @@
     <div class="col-sm-10">
       <asp:TextBox ID="NombreTextBox" runat="server" CssClass="form-control"></asp:TextBox>
 
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
-        ControlToValidate="NombreTextBox"
-        ErrorMessage="El nombre es requerido"
-        ForeColor="Red">
-    </asp:RequiredFieldValidator>
+
     </div>
   </div>
   <div class="form-group">
@@ -54,6 +52,7 @@
             &nbsp;&nbsp;
             <asp:Button runat="server" ID="FalsoButton" Text="Falso" CommandArgument="False" CssClass="btn btn-success" CommandName="RESPONDER" OnCommand="Responder" Height="36px" Width="90px" />
         </div>
+           <audio src="Audio/cancion.mp3" preload="auto" autoplay="autoplay" controls></audio>
     </asp:Panel>
 
      <asp:Panel runat="server" ID="ResultadoPanel">
@@ -130,12 +129,16 @@
              <SeparatorTemplate>
                  <br />
              </SeparatorTemplate>
+
+
          </asp:Repeater>
+
+           
+   
              </div>
          <div style="padding-left:40%; padding-right:30%" >
          </div>
-           
     </asp:Panel>
-
+             
 
 </asp:Content>

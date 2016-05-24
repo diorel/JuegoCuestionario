@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maqueta.master.cs" Inherits="JurgoWeb.Maqueta" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Juego el que menos sabe</title>
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+     <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+     <link href="css/estilo.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="logo" >
+        <img src="img/LogoAgentia.png" style="padding-left: 35%;"   class="img-responsive" alt="Responsive image"/>
+    </div>
+    <form id="form1" runat="server">
+    <div id="contenedor">
+        <header>
+            <h1>¿? ¿? ¿? EL QUE MENOS SABE ¿? ¿? ¿?</h1>                         
+        </header>
+        <section>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p> este es el cuerpo del documento</p>
+        </asp:ContentPlaceHolder>
+        </section>
+        <footer>
+            <p>Copyright © 2016 www.agentia.com.mx, All rights reserved.</p>
+        </footer>
+     </div>
+    </form>
+    <div style="padding-left:80%; padding-right:20%; padding-top:1%;" >
+        <img alt="" class="auto-style1" src="img/caveza.png" style="padding-top:1%;" /> 
+
+    </div>
+    
+</body>
+  
+
+</html>

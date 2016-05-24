@@ -30,6 +30,7 @@ namespace JurgoWeb
             }
         }
 
+
         public Prueba(string nombre, string departamento)
         {
             if (string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(departamento))
